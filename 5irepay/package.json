@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@web3auth/base": "^2.1.2",
+    "@web3auth/web3auth": "^2.1.2",
+    "ethers": "^5.7.1"
+  }
+}

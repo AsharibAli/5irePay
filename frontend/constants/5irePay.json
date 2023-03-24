@@ -1,0 +1,49 @@
+[
+  {
+    "type": "event",
+    "anonymous": false,
+    "name": "Registered",
+    "inputs": [
+      { "type": "bytes32", "name": "emailHash", "indexed": false },
+      { "type": "address", "name": "user", "indexed": false }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "getAddress",
+    "constant": true,
+    "stateMutability": "view",
+    "payable": false,
+    "inputs": [{ "type": "bytes32", "name": "emailHash" }],
+    "outputs": [{ "type": "address", "name": "_address" }]
+  },
+  {
+    "type": "function",
+    "name": "isEmailRegistered",
+    "constant": true,
+    "stateMutability": "view",
+    "payable": false,
+    "inputs": [{ "type": "bytes32", "name": "emailHash" }],
+    "outputs": [{ "type": "bool", "name": "exists" }]
+  },
+  {
+    "type": "function",
+    "name": "register",
+    "constant": false,
+    "payable": false,
+    "inputs": [{ "type": "bytes32", "name": "emailHash" }],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "transferFrom",
+    "constant": false,
+    "payable": false,
+    "inputs": [
+      { "type": "address", "name": "_token" },
+      { "type": "uint256", "name": "_amount" },
+      { "type": "address", "name": "_to" }
+    ],
+    "outputs": []
+  }
+]
