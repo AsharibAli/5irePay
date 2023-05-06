@@ -94,7 +94,7 @@ export default function Navbar({
       >
         <Link href="/">
           <a
-            className="fa fa-sign-out mr-2 py-3 text-base opacity-70"
+            className="gradient-text mb-2 text-2xl font-black tracking-normal text-white"
             onClick={async () => {
               try {
                 await web3auth.logout();
@@ -125,7 +125,7 @@ export default function Navbar({
           className={`flex w-full items-center !justify-between text-[#1A237E] ${className}`}
         >
           <Link href="/">
-            <a className="py-2.375 text-size-sm mr-4 whitespace-nowrap font-bold text-inherit lg:ml-0">
+            <a className="gradient-text mb-2 text-2xl font-black tracking-normal text-white">
               5irePay
             </a>
           </Link>

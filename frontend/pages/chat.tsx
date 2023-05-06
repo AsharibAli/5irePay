@@ -83,7 +83,9 @@ export default function Chat() {
               </Intercom>
             </div>
           </div>
-          <div className="pt-96 font-semibold">Powered by ----</div>
+          <div className="pt-96 font-semibold">
+            Currently on Building Phase ----
+          </div>
         </div>
       </div>
     </>

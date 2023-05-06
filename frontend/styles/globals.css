@@ -189,3 +189,10 @@ table tbody tr td code {
   text-align: right;
   color: rgba(255, 255, 255, 0.25);
 }
+
+.gradient-text {
+  background-image: linear-gradient(to right, #7b2ed2, #ec4899, #f43f5e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -123,7 +123,7 @@ export default function Pay() {
                 <div className="flex-auto px-4 py-10 pt-0 lg:px-10">
                   <form>
                     <div className="relative mb-3 w-full">
-                      <label className="mb-2 block text-xs font-bold uppercase text-blue-600">
+                      <label className="gradient-text text-1xl mb-2 font-black tracking-normal text-white">
                         Withdraw Crypto To
                       </label>
                       <input
@@ -136,7 +136,7 @@ export default function Pay() {
                     </div>
 
                     <div className="relative mb-3 w-full">
-                      <label className="mb-2 block text-xs font-bold uppercase text-blue-600">
+                      <label className="gradient-text text-1xl mb-2 font-black tracking-normal text-white">
                         Amount
                       </label>
                       <input
@@ -149,7 +149,7 @@ export default function Pay() {
                       />
                     </div>
                     <button
-                      className="mr-1 mb-1 w-full rounded bg-blue-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-blue-600"
+                      className="h-full w-full rounded-lg bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-4 py-2 text-white"
                       type="button"
                       onClick={handleWithdraw}
                       disabled={isDisabled}

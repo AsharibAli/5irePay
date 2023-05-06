@@ -38,7 +38,7 @@ export default function SectionFeatures() {
           5irePay
         </Typography>
         <Typography className="mb-2 text-lg font-light text-[#1A237E]/60">
-        5irePay is a payment platform to send and receive payment across seas
+          5irePay is a payment platform to send and receive payment across seas
           in crypto without any hassle. Users can send and receive payments with
           email address and login is also hassel free unlike other crypto
           platforms.

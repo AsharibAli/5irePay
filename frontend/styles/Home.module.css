@@ -3,19 +3,19 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  background-image: url("/img/bg-header.jpg");
+  background-image: url("/img/bg.png");
 }
 
 .backgroundParent2 {
   height: 100vh;
   display: grid;
   align-items: flex-end;
-  background-image: url("/img/bg-header.jpg");
+  background-image: url("/img/bg.png");
 }
 
 .bgImg {
   height: 100vh;
-  background-image: url("/img/bg-header.jpg");
+  background-image: url("/img/bg.png");
 }
 
 .card {

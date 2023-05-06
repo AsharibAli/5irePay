@@ -78,7 +78,7 @@ function Login() {
       {authError && <p className={styles.error}>{JSON.stringify(authError)}</p>}
       <div className={styles.buttonCard}>
         <button
-          className={styles.loginButton}
+          className="h-full w-full rounded-lg bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-4 py-2 text-white"
           onClick={login}
           disabled={isAuthenticating}
         >

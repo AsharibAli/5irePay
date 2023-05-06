@@ -75,7 +75,7 @@ export default function PaymentBtn() {
               <div className="bg-blueGray-200 relative mb-6 flex w-full min-w-0 flex-col break-words rounded-lg border-0">
                 <div className="flex-auto px-4 py-10 pt-0 lg:px-10">
                   <button
-                    className="mr-1 mb-1 w-full rounded bg-blue-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-blue-600"
+                    className="h-full w-full rounded-lg bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 px-4 py-2 text-white"
                     type="button"
                     onClick={generateCode}
                     disabled={isDisabled}
